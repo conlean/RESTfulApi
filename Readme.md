@@ -1,6 +1,6 @@
-# Java, Maven, Spring Boot, MySQL, JPA, Hibernate Rest API
+# Java, Maven, Spring Boot, Spring Security, MySQL, JPA, Hibernate Rest API
 
-This is an example Restful CRUD API built on top of Spring Boot + MySql as part of a challenge in the recruiting process.
+This is an example Restful CRUD API built on top of Spring Boot + Security + MySql as part of a challenge in the recruiting process.
 
 ## Requirements
 
@@ -39,6 +39,8 @@ The app will start running at <http://localhost:8080>.
 ## Explore Rest APIs
 
 The app defines following CRUD APIs.
+    
+    GET localhost:8080 (Welcome, App running)
 
     GET localhost:8080/api/products/   (All items)
     
